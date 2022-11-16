@@ -1,0 +1,89 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: large;
+    color: darkblue;
+}
+
+a:visited {color: brown;}
+a:hover {
+    background-color: aquamarine;
+    }
+
+body {max-width: 90%;
+    margin: auto;
+    font-size: large;
+    background-color: #F5C399;
+    background: url(https://img.freepik.com/free-photo/field-with-spikelets-close-up-background-with-wheat-spikelets_661209-259.jpg) bottom right no-repeat, linear-gradient(#f3e147, #F5C399);
+    background-size: cover, auto;
+}
+
+q, blockquote {
+    width: 50%;
+    margin: auto; /*works on blockquote but not q*/
+    font-size: 160%; /*works on q but not blockquote*/
+    background-color: #dcebdf;
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: firebrick;
+    padding-left: 30px;
+    margin-top: 80px; /*works on blockquote but not q*/ 
+    margin-bottom: 80px; /*works on blockquote but not q*/
+}
+
+q {
+    font-style: italic;
+}
+
+.villagers {
+    border-color: orange;
+}
+
+.farmer {
+    border-color: white;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+header > h1 {
+    background-color: #f3e147;
+}
+
+table, th, tr, td {
+    border: 1px solid;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #dcebdf;
+}
+
+li#thumbsup /* ul:first-child ?*/ {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/bien.png?token=GHSAT0AAAAAAB24UHN6M6ZLGTIEU5BEH3ZGY3U7HHQ) no-repeat;
+    padding-right: 50%;
+
+}
+
+li#thumbsdown /* ul: */ {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/mal.png?token=GHSAT0AAAAAAB24UHN7J5272A6VORTF7PPKY3U7HMQ) no-repeat;
+}
+
+li#cats {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/chat.png?token=GHSAT0AAAAAAB24UHN6QMVWIX4C6WXLCHKUY3U7HOQ) no-repeat;
+}
+
+img {
+    float: left;
+    margin: 20px;
+}
